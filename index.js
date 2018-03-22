@@ -68,7 +68,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  if (cardNumber === '' || cardNumber = NaN || cardNumber === undefined) {
+  if (cardNumber === '' || cardNumber isNaN || cardNumber === undefined) {
     
   }
 }
