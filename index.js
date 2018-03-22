@@ -48,7 +48,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var exist = item.length;
+  var exist = -1;
   
   for(var i = 0; i < cart.length; i++) {
     console(item.toLowerCase());
