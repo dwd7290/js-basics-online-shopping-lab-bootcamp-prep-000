@@ -57,5 +57,6 @@ function placeOrder(cardNumber) {
 addToCart('Apple');
 addToCart('Orange');
 console.log(viewCart());
+console.log(cart)
 var to = total();
 console.log(to);
