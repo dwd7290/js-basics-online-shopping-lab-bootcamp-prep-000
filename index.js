@@ -72,7 +72,7 @@ function placeOrder(cardNumber) {
   if (cardNumber === '' || cardNumber === null || cardNumber === undefined) {
     return "Sorry, we don't have a credit card on file for you.";
   } else {
-    
+    tmp = `Your total cost is ${total()}`;
   }
 }
 
