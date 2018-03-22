@@ -57,11 +57,12 @@ function removeFromCart(item) {
       exist = [i];
     }
   }
+  
   if (exist === -1) {
     return "That item is not in your cart.";
   } else {
     cart.splice(exist, 1);
-    return cart();
+    return cart;
   }
 }
 
