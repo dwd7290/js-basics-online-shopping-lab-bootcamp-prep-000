@@ -51,7 +51,7 @@ function removeFromCart(item) {
   var exist = item.length;
   
   for(var i = 0; i< cart.length; i++) {
-    if (item.toLowerCase() === cart[i].itemName) {
+    if (item.toLowerCase() === cart[i].itemName.toLowerCase()) {
       
     }
   }
