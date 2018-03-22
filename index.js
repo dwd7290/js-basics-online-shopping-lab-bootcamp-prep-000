@@ -70,6 +70,8 @@ function placeOrder(cardNumber) {
 
 addToCart('Apple');
 addToCart('Orange');
+addToCart('Kiwi');
+addToCart('Banana');
 console.log(viewCart());
 console.log(cart)
 console.log(total());
