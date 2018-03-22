@@ -39,6 +39,10 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var total;
+  for(var i=0; i < cart.length; i++) {
+  	total += parseInt(cart[i].itemPrice);
+  }
 }
 
 function removeFromCart(item) {
@@ -51,6 +55,5 @@ function placeOrder(cardNumber) {
 
 addToCart('Apple');
 addToCart('Orange');
-addToCart('Banana');
-addToCart('Strawberries');
 console.log(viewCart());
+console.log(total());
