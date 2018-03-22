@@ -58,4 +58,4 @@ addToCart('Apple');
 addToCart('Orange');
 console.log(viewCart());
 var to = total();
-console.log(total);
+console.log(to);
