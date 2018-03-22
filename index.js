@@ -56,13 +56,12 @@ function removeFromCart(item) {
     if (item.toLowerCase() === cart[i].itemName.toLowerCase()) {
       exist = [i];
     }
-    
+  }
   if (exist === -1) {
     return "That item is not in your cart.";
   } else {
     cart.splice(exist, 1);
     return cart();
-  }
   }
 }
 
