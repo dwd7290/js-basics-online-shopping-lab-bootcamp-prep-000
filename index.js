@@ -54,6 +54,10 @@ function removeFromCart(item) {
     if (item.toLowerCase() === cart[i].itemName.toLowerCase()) {
       exist = [i]
     }
+    
+  if () {
+    
+  }
   }
 }
 
