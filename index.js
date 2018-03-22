@@ -73,5 +73,6 @@ addToCart('Orange');
 addToCart('Kiwi');
 addToCart('Banana');
 console.log(cart);
+console.log();
 
 console.log(total());
