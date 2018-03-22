@@ -74,5 +74,3 @@ addToCart('Kiwi');
 addToCart('Banana');
 console.log(cart);
 console.log(removeFromCart('Kiwi'));
-
-console.log(total());
