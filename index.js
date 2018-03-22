@@ -50,9 +50,9 @@ function removeFromCart(item) {
   // write your code here
   var exist = item.length;
   
-  for(var i = 0; i< cart.length; i++) {
+  for(var i = 0; i < cart.length; i++) {
     if (item.toLowerCase() === cart[i].itemName.toLowerCase()) {
-      exist = [i]
+      exist = [i];
     }
     
   if (exist === item.length) {
