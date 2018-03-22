@@ -55,7 +55,9 @@ function removeFromCart(item) {
       exist = [i]
     }
     
-  if () {
+  if (exist === item.length) {
+    return "That item is not in your cart.";
+  } else {
     
   }
   }
