@@ -48,6 +48,13 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  var exist = item.length;
+  
+  for(var i = 0; i< cart.length; i++) {
+    if () {
+      
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
